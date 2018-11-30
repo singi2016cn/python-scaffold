@@ -1,8 +1,5 @@
-# hello world
-# singi
-
+# 调整名字的大小写
 my_name = 'singi'
-print(my_name.title())
 print(my_name.lower())
 print(my_name.upper())
-print(my_name)
+print(my_name.title())
