@@ -24,7 +24,7 @@ for value in range(2, max_result+1):
 hist = pygal.Bar()
 
 hist.title = '3个6面骰子投掷1000次的概率分布'
-hist.x_labels = list(range(2, die.num_sides+die2.num_sides+1))
+hist.x_labels = list(range(2, max_result+1))
 hist.x_title = '结果'
 hist.y_title = '次数'
 
